@@ -1,0 +1,18 @@
+create database file;
+use file;
+show tables;
+create table file.data(serial_no int,name varchar(10),roll_no varchar(20),department varchar(10),clg varchar(10),place varchar(20)
+);
+describe file.dat;
+insert into file.data values (1,"Aarthi","20BM001","BME","MEC","Rasi"),
+(2,"aruna","20BM002","BME","MEC","Rasi"),
+(3,"devi","20BM003","BME","MEC","Rasi"),
+(4,"gayu","20BM004","BME","MEC","Rasi"),
+(5,"divya","20BM005","BME","MEC","Rasi"),
+(6,"keerthi","20BM007","BME","MEC","Rasi"),
+(7,"vetri","20BM008","BME","MEC","Rasi"),
+(8,"vishu","20BM009","BME","MEC","Rasi"),
+(9,"sugu","20BM010","BME","MEC","Rasi"),
+(10,"saras","20BM011","BME","MEC","Rasi"),
+(11,"prema","prema","prema","prema","prema");
+select*from file.data;
